@@ -18,14 +18,10 @@ Is there a change in the consumption of certain types of ingredients throughout 
 Does a country have a tendency to drink more alcohol, soda, sweet drinks?
 Which brands outsource manufacturing, use cheaper packaging and ingredients, are more eco-friendly?
 
-
-
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 Open food facts dataset: we intend to mainly use the following features: nutrition facts, additives, ingredients from palm oil, carbon footprint, nutrition scores, countries, fruit-vegetables score, origins, purchase places, manufacturing, datetime   
 WHO list of carcinogenic products and/or other in order to add health and ecological dimensions to our first dataset
 We might use the Instacart dataset if we find that the open food facts dataset does not provide enough information on consumption behavior. However, this dataset is limiting because it is not global (only U.S.), and we think that it might be biased regarding the type of people who order food online (more orders of unhealthy people?).
-
 
 # A list of internal milestones up until project milestone 2
 Mining WHO data
@@ -33,7 +29,6 @@ Filter the Open food facts dataset, and keep only the columns which are relevant
 For each analysis question, check if there is enough data to get pertinent and unbiased results
 Look into ways we can visualize our data.
 Discuss layout of our data story
-
 
 # Questions for TAs
 How can we link this database to health or ecological issues ? Can we use a WHO list of carcinogenic products for example ? 
