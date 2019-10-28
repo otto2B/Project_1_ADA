@@ -37,7 +37,7 @@ might be biased regarding the type of people who order food online (more orders 
 ### A list of internal milestones up until project milestone 2
 -Mining WHO data                                                                                 
 -Filter the Open food facts dataset, and keep only the columns which are relevant to our analysis                    
--For each analysis question, check if there is enough data to get pertinent and unbiased results
+-For each analysis question, check if there is enough data to get pertinent and unbiased results                      
 -Look into ways we can visualize our data.                                                      
 -Discuss layout of our data story
 
