@@ -1,5 +1,4 @@
-#Title
- A temporal and geographical analysis of food consumption
+#A temporal and geographical analysis of food consumption
 
 # Abstract
 Idea: analyse the Open Food Facts data through different prisms: chronologically (even though the project only started in 2012), geographically and also from a business perspective (Brands analysis). We thus hope to find different outcomes depending on these three factors and be able to draw interesting conclusions...
