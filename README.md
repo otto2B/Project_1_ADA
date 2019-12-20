@@ -1,50 +1,17 @@
-# A temporal and geographical analysis of food consumption
+# Difference and similarities between the American and French way ofconsuming food
 
-### Abstract
--Idea: analyse the Open Food Facts data through different prisms: chronologically                                     
-(even though the project only started in 2012), geographically and also from a business perspective (Brands analysis). 
-We thus hope to find different outcomes depending on these three factors and be able to draw interesting 
-conclusions...                                                                                                       
--Goals: be able to draw conclusions over several topics: first of all, health. But also financial and ecological findings. 
-Three topics that appear critical to us today.                                                                         
-Also, we would like to make the database more interactive, with quizzes, games or interactive graphs for example.     
--Motivation: health, ecology and budgets are to be three major topics in the near future. They represent major concerns 
-for a large share of the population and are closely linked to the food consumption and more globally the food business. 
-Moreover, we like the idea of a collaborative and decentralized database.
+# Abstract
+This document presents a full report on similarities and differences between how the United States and France consume food. We explore the range of food products sold in these two countries, and try to see if there are any significant nutritional differences. We also decide to analyse the ecological footprint of food manufacturers in both of these countries, as ecology is a very relevant matter. We do this by taking a look at the packaging materials used by the major food manufacturers. We will also talk about some limitations that we have encountered in our dataset that might affect our results.
 
-### Research questions
--How to get rid of duplicates ? How to favour those that are more detailed ?                                       
--How to manage missing values in products ?                                                                       
--How can we compare two products ? how can we handle the different gradings (e.g. ‘a’ to ‘e’, in france) that exist ?   
--To what extent does this database represent the global food consumption (can we find biasses 
-with the type of users in the database, etc.)                                                                     
--Can we identify food trends depending on the region ? (more fat or more sugar in certain countries)                    
--Or even ecological trends (foodprints, packaging)                                                               
--Is there a change in the consumption of certain types of ingredients throughout the years ? (increase in palm oil 
-or in sugar?)                                                                                                    
--Does a country have a tendency to drink more alcohol, soda, sweet drinks?                                          
--Which brands outsource manufacturing, use cheaper packaging and ingredients, are more eco-friendly?               
+# Research questions
+	- Discovering different food trends between the two countries and try to explain them with geopolitical reasons.
+	- Try to see any differences in the use of plastic between the two countries
+	- Use of the nutrition score to comapre the countries.
 
-### Dataset
--Open food facts dataset: we intend to mainly use the following features: nutrition facts, additives, ingredients 
-from palm oil, carbon footprint, nutrition scores, countries, fruit-vegetables score, origins, purchase places, 
-manufacturing, datetime                                                                                              
--WHO list of carcinogenic products and/or other in order to add health and ecological dimensions to our first dataset   
--We might use the Instacart dataset if we find that the open food facts dataset does not provide enough information 
-on consumption behavior. However, this dataset is limiting because it is not global (only U.S.), and we think that it 
-might be biased regarding the type of people who order food online (more orders of unhealthy people?).
+# Dataset
+The  Open  Food  Fact  database  is  taken  fromworld.openfoodfacts.org   website.Open   FoodFacts  is  a  non-profit  association  of  volunteers.They  host  a  database  of  food  products  with  in-gredients, allergens, nutrition facts and all the tid-bits of information we can find on product labels.Their data about food is of public interest and hasto be open. The complete database is published asopen data and can be reused by anyone and for any use.
 
-### A list of internal milestones up until project milestone 2
--Mining WHO data                                                                                 
--Filter the Open food facts dataset, and keep only the columns which are relevant to our analysis                    
--For each analysis question, check if there is enough data to get pertinent and unbiased results                      
--Look into ways we can visualize our data.                                                      
--Discuss layout of our data story
-
-### Questions for TAs
--How can we link this database to health or ecological issues ? Can we use a WHO list of carcinogenic products for 
-example ?                                                                                                              
--Are there any ways that are in our reach for implementing interactive graphs?
-
-
-
+# Work division
+	- Constantin De Bentzmann: Plastic use, report, poster and presentation
+	- Anas Seddiki: Food trend, report, poster and presentation
+	- Clement Grillet: Nutrition score, report, poster and presentation
